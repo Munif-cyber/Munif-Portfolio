@@ -1,0 +1,427 @@
+@font-face {
+  font-family: Bodoni;
+  src: url("fonts/Bodoni.ttf");
+}
+
+@font-face {
+  font-family: futura;
+  src: url("fonts/Futura.ttf");
+}
+
+@font-face {
+  font-family: Futural;
+  src: url("fonts/Futura L.ttf");
+}
+
+@font-face {
+  font-family: Futurab;
+  src: url("fonts/Futura B.ttf");
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 1rem;
+  font-family: Futural;
+}
+
+body {
+  background: black;
+  color: #ffffff;
+  margin: 0px 5%;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 0%;
+}
+
+nav .logo {
+  max-width: 80px;
+  height: auto;
+}
+
+nav .logo img {
+  width: 100%;
+  height: auto;
+}
+
+nav .link ul li {
+  display: inline;
+  margin: 10px;
+}
+
+nav .link ul li a {
+  font-size: 100%;
+  color: white;
+  text-decoration: none;
+}
+
+nav .link ul li a:active {
+  color: #ff9f1c;
+}
+
+nav .link ul li a:hover {
+  color: #ff9f1c;
+}
+
+button {
+  background: none;
+  border: 1px solid #ff9f1c;
+  padding: 5px 10px;
+  margin: 0px 5px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #ff9f1c;
+  font-size: 0.8rem;
+  border-radius: 2px;
+}
+
+button:hover, button:active {
+  background: #ff9f1c;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+button a {
+  text-decoration: none;
+  color: #ff9f1c;
+}
+
+button a:hover, button a:active {
+  color: black;
+}
+
+.thank {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.thank button {
+  margin: 20px 0px;
+}
+
+.thank .link {
+  margin-bottom: 40px;
+}
+
+.thank .link a {
+  font-size: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+  section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 40px;
+    padding: 25px 0px;
+    padding-bottom: 0px;
+  }
+  section.first {
+    font-size: 13px;
+    background: black;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  section.first .hello {
+    width: 100%;
+    text-align: center;
+    font-size: 12px !important;
+  }
+  section.first .hello span {
+    font-size: 1rem;
+  }
+  section.first .hello p {
+    text-align: center;
+    margin: 0px auto;
+    width: 80%;
+    font-size: .8rem;
+  }
+  section.first .hello h2 {
+    font-size: 1.7rem;
+    font-family: futura;
+    color: #2ec4b6;
+    margin-bottom: 5px;
+  }
+  section.first .hello h2 span {
+    font-size: 1.7rem;
+    font-family: Futura;
+    color: white;
+  }
+  section.first .hello div {
+    margin: 20px;
+  }
+  section.first .picture {
+    width: 200px;
+  }
+  section.first .picture img {
+    width: 100%;
+    height: auto;
+  }
+  section.second .picture {
+    width: 70%;
+    margin: 0px auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  section.second .picture img {
+    width: 100%;
+    height: auto;
+  }
+  section.second .about {
+    margin: 0px auto;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  section.second .about h3 {
+    font-size: 1.4rem;
+    font-family: Futurab;
+    margin-bottom: 10px;
+  }
+  section.second .about p {
+    font-size: .9rem;
+    color: #cbf3f0;
+    width: 80%;
+    margin: 0px auto;
+    font-family: "Bodoni";
+  }
+  section.second .about div {
+    text-align: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin: 10px;
+    font-size: 1rem;
+    font-family: Bodoni;
+    line-height: 27px;
+    color: #999;
+  }
+  section.third {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  section.third h3 {
+    font-size: 1.4rem;
+    margin: 0px auto;
+    font-family: Futurab;
+    text-align: center;
+  }
+  section.third div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #cbf3f0;
+    width: 100%;
+    height: auto;
+    margin: 10px 0px;
+  }
+  section.third div.heads {
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    color: white;
+  }
+  section.third div img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  section.third div:hover {
+    border: none;
+  }
+  section.third div:hover img {
+    opacity: 0.8;
+  }
+}
+
+@media only screen and (min-width: 501px) {
+  section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 40px;
+    padding: 25px 0px;
+    padding-bottom: 0px;
+  }
+  section.first {
+    background: black;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  section.first .hello {
+    width: 100%;
+    text-align: left;
+  }
+  section.first .hello span {
+    font-size: 1rem;
+  }
+  section.first .hello p {
+    text-align: left;
+    width: 80%;
+  }
+  section.first .hello h2 {
+    font-size: 200%;
+    font-family: futura;
+    color: #2ec4b6;
+    margin-bottom: 5px;
+  }
+  section.first .hello h2 span {
+    font-size: 1.7rem;
+    font-family: Futura;
+    color: white;
+  }
+  section.first .hello div {
+    margin: 20px 0px;
+  }
+  section.first .picture {
+    max-width: 35%;
+  }
+  section.first .picture img {
+    width: 100%;
+    height: auto;
+  }
+  section.second {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  section.second .picture {
+    max-width: 200px;
+    margin: 0px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  section.second .picture img {
+    width: 100%;
+    height: auto;
+  }
+  section.second .about {
+    margin: 0px;
+    text-align: left;
+    -webkit-box-align: left;
+        -ms-flex-align: left;
+            align-items: left;
+  }
+  section.second .about h3 {
+    font-size: 1.4rem;
+    font-family: Futurab;
+    margin-bottom: 10px;
+  }
+  section.second .about p {
+    font-size: .9rem;
+    color: #cbf3f0;
+    width: 100%;
+    margin: 0px;
+    font-family: "Bodoni";
+  }
+  section.second .about div {
+    text-align: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin: 10px 0px;
+    font-size: 1rem;
+    font-family: Bodoni;
+    line-height: 27px;
+    color: #999;
+  }
+  section.third {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  section.third h3 {
+    font-size: 1.4rem;
+    margin: 0px auto;
+    font-family: Futurab;
+  }
+  section.third div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    color: #cbf3f0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 45%;
+    height: auto;
+    margin: 0px auto;
+    margin: 10px auto;
+  }
+  section.third div.heads {
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    color: white;
+  }
+  section.third div img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  section.third div:hover {
+    border: none;
+  }
+  section.third div:hover img {
+    opacity: 0.8;
+  }
+}
+/*# sourceMappingURL=munif.css.map */
