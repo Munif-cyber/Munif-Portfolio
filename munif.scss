@@ -27,11 +27,15 @@ $lorange: #ffbf69;
     font-size: 1rem;
     font-family:Futural;
 }
+html{
+    scroll-behavior: smooth !important;
+}
 body{
     background: black;
     color: #ffffff;
     margin:0px 5%;
 }
+
 
     nav{
         // background: navy;
