@@ -100,12 +100,16 @@ button{
     align-items:center;
     button{
         margin:20px 0px;
+        
     }
     .link{
         // background:blue !important;
         margin-bottom: 40px;
         a{
             font-size:100%;
+            @media only screen and (max-width:300px){
+                font-size:60%;
+            }
         }
     }
 }

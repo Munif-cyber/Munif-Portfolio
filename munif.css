@@ -128,6 +128,12 @@ button a:hover, button a:active {
   font-size: 100%;
 }
 
+@media only screen and (max-width: 300px) {
+  .thank .link a {
+    font-size: 60%;
+  }
+}
+
 @media only screen and (max-width: 500px) {
   section {
     display: -webkit-box;
