@@ -79,6 +79,41 @@ nav .link ul li a:hover {
   color: #ff9f1c;
 }
 
+.third.contact div {
+  width: 100%;
+}
+
+.third.contact div button {
+  width: 80%;
+  height: auto;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 320px) {
+  .third.contact div button {
+    width: 100%;
+  }
+}
+
+.third.contact div button a {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.5rem;
+  padding: 0px;
+}
+
+.third.contact div button a span {
+  width: 40px;
+  height: auto;
+  margin-right: 20px;
+  padding: 0px !important;
+}
+
 button {
   background: none;
   border: 1px solid #ff9f1c;
@@ -120,6 +155,10 @@ button a:hover, button a:active {
           align-items: center;
 }
 
+.thank p {
+  margin: 20px 0px;
+}
+
 .thank button {
   margin: 20px 0px;
 }
@@ -132,7 +171,7 @@ button a:hover, button a:active {
   font-size: 100%;
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 320px) {
   .thank .link a {
     font-size: 60%;
   }
@@ -196,6 +235,15 @@ button a:hover, button a:active {
   section.second .picture {
     width: 70%;
     margin: 0px auto;
+    background: #2ec4b6;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 30px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -218,7 +266,7 @@ button a:hover, button a:active {
   }
   section.second .about p {
     font-size: .9rem;
-    color: #cbf3f0;
+    color: white;
     width: 80%;
     margin: 0px auto;
     font-family: "Bodoni";
@@ -233,7 +281,7 @@ button a:hover, button a:active {
     font-size: 1rem;
     font-family: Bodoni;
     line-height: 27px;
-    color: #999;
+    color: white;
   }
   section.third {
     display: -webkit-box;
@@ -341,12 +389,34 @@ button a:hover, button a:active {
         justify-content: space-around;
   }
   section.second .picture {
-    max-width: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin: 0px;
+    background: #2ec4b6;
+    width: 500%;
     margin: 0px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin-right: 50px;
   }
+}
+
+@media only screen and (min-width: 501px) and (min-width: 701px) {
+  section.second .picture {
+    max-width: 200px;
+  }
+}
+
+@media only screen and (min-width: 501px) {
   section.second .picture img {
     width: 100%;
     height: auto;
@@ -365,7 +435,7 @@ button a:hover, button a:active {
   }
   section.second .about p {
     font-size: .9rem;
-    color: #cbf3f0;
+    color: white;
     width: 100%;
     margin: 0px;
     font-family: "Bodoni";
@@ -380,7 +450,7 @@ button a:hover, button a:active {
     font-size: 1rem;
     font-family: Bodoni;
     line-height: 27px;
-    color: #999;
+    color: white;
   }
   section.third {
     display: -webkit-box;

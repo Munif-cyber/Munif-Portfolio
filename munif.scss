@@ -75,6 +75,38 @@ body{
             }
         }
     }
+.third.contact{
+    div{
+        width: 100%;
+        // background:pink;
+        button {
+            width:80%;
+            @media only screen and (max-width:320px){
+                width:100%}
+            height: auto;
+            border-radius: 10px;
+            a{
+            width:100%;
+            display:flex;
+            align-items:center;
+            // background:green;
+            font-size:1.5rem;
+            padding:0px;
+            span{
+                width:40px;
+                height:auto;
+                // background:blue;
+                margin-right:20px;
+                padding:0px !important;
+                
+                
+            }
+            }
+             
+        }
+    }
+    
+}
 button{
     background: none;
     border:1px solid $orange;
@@ -102,6 +134,9 @@ button{
     display: flex;
     flex-direction:column;
     align-items:center;
+    p{
+        margin:20px 0px;
+    }
     button{
         margin:20px 0px;
         
@@ -111,7 +146,7 @@ button{
         margin-bottom: 40px;
         a{
             font-size:100%;
-            @media only screen and (max-width:300px){
+            @media only screen and (max-width:320px){
                 font-size:60%;
             }
         }
@@ -170,6 +205,10 @@ section{
         .picture{
             width:70%;
             margin:0px auto;
+            background:$blue;
+            display:flex;
+            flex-direction: column;
+            margin-bottom: 30px;
             // height:20px;
             // background:yellow;
             align-items:center;
@@ -189,25 +228,12 @@ section{
             }
             p{
                 font-size:.9rem;
-                color:$lblue;
+                color:white;
                 width:80%;
                 margin:0px auto;
                 font-family:"Bodoni";
             }
-            // button{
-            //     margin-bottom:20px;
-            //     background:none;
-            //     border:1px $orange solid;
-            //     color:$orange;
-            //     padding:5px 10px;
-            //     border-radius: 2px;
-            //     &:hover{
-            //         background:$orange;
-            //         color:black;
-            //         border:none;
-            //         cursor: pointer;
-            //     }
-            // }
+           
         }
         .about div{
             text-align: left;
@@ -217,7 +243,7 @@ section{
             font-size: 1rem;
             font-family: Bodoni;
             line-height: 27px;
-            color:#999
+            color:white;
             // background:black;
             // justify-content: space-between;
         }
@@ -323,11 +349,20 @@ section{
             // background: brown;
             justify-content: space-around;
             .picture{
-                max-width:200px;
+                display:flex;
+                flex-direction:column;
+                justify-content: flex-end;
+                margin:0px;
+                background:$blue;
+                width:500%;
+                @media only screen and (min-width:701px){
+                    max-width: 200px;
+                }
                 margin:0px;
                 // height:20px;
                 // background:yellow;
                 align-items:center;
+                margin-right:50px;
                 img{
                     width:100%;
                     height:auto;
@@ -344,7 +379,7 @@ section{
                 }
                 p{
                     font-size:.9rem;
-                    color:$lblue;
+                    color:white;
                     width:100%;
                     margin:0px;
                     font-family:"Bodoni";
@@ -358,7 +393,7 @@ section{
                 font-size: 1rem;
                 font-family: Bodoni;
                 line-height: 27px;
-                color:#999;
+                color:white;
                 // background:blue;
     
                 // justify-content: space-between;
