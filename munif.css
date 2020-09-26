@@ -84,9 +84,76 @@ nav .link ul li a:hover {
 }
 
 .third.contact div button {
-  width: 80%;
+  width: 100%;
   height: auto;
   border-radius: 10px;
+}
+
+.third.contact div button.whatsapp {
+  background: #25D366;
+  color: black;
+  border: none;
+}
+
+.third.contact div button.whatsapp:hover, .third.contact div button.whatsapp:active {
+  border: 2px #25D366 solid;
+  background: none;
+}
+
+.third.contact div button.facebook {
+  background: #3b5998;
+  color: black;
+  border: none;
+}
+
+.third.contact div button.facebook:hover, .third.contact div button.facebook:active {
+  border: 2px #3b5998 solid;
+  background: none;
+}
+
+.third.contact div button.twitter {
+  background: #00acee;
+  color: black;
+  border: none;
+}
+
+.third.contact div button.twitter:hover, .third.contact div button.twitter:active {
+  border: 2px #00acee solid;
+  background: none;
+}
+
+.third.contact div button.call {
+  background: #888888;
+  color: black;
+  border: none;
+}
+
+.third.contact div button.call:hover, .third.contact div button.call:active {
+  border: 2px #888888 solid;
+  background: none;
+}
+
+.third.contact div button.instagram {
+  background: -webkit-gradient(linear, left bottom, right top, from(#F90100), to(#8134AF));
+  background: linear-gradient(left bottom, #F90100, #8134AF);
+  color: black;
+  border: none;
+}
+
+.third.contact div button.instagram:hover, .third.contact div button.instagram:active {
+  border: 2px #F90100 solid;
+  background: none;
+}
+
+.third.contact div button.linkedin {
+  background: #0072b1;
+  color: black;
+  border: none;
+}
+
+.third.contact div button.linkedin:hover, .third.contact div button.linkedin:active {
+  border: 2px #0072b1 solid;
+  background: none;
 }
 
 @media only screen and (max-width: 320px) {
@@ -103,8 +170,16 @@ nav .link ul li a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 1.5rem;
+  background: none;
+  font-size: 1.3rem;
   padding: 0px;
+  color: white;
+}
+
+@media only screen and (max-width: 320px) {
+  .third.contact div button a {
+    font-size: 1rem;
+  }
 }
 
 .third.contact div button a span {
@@ -112,6 +187,12 @@ nav .link ul li a:hover {
   height: auto;
   margin-right: 20px;
   padding: 0px !important;
+}
+
+@media only screen and (max-width: 320px) {
+  .third.contact div button a span {
+    width: 30px;
+  }
 }
 
 button {
@@ -269,7 +350,7 @@ button a:hover, button a:active {
     color: white;
     width: 80%;
     margin: 0px auto;
-    font-family: "Bodoni";
+    font-family: "futural";
   }
   section.second .about div {
     text-align: left;
@@ -279,7 +360,7 @@ button a:hover, button a:active {
     width: 100%;
     margin: 10px;
     font-size: 1rem;
-    font-family: Bodoni;
+    font-family: futural;
     line-height: 27px;
     color: white;
   }
@@ -371,7 +452,7 @@ button a:hover, button a:active {
   }
   section.first .hello h2 span {
     font-size: 1.7rem;
-    font-family: Futura;
+    font-family: bodoni;
     color: white;
   }
   section.first .hello div {
@@ -401,7 +482,7 @@ button a:hover, button a:active {
             justify-content: flex-end;
     margin: 0px;
     background: #2ec4b6;
-    width: 500%;
+    width: 400%;
     margin: 0px;
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -427,6 +508,7 @@ button a:hover, button a:active {
     -webkit-box-align: left;
         -ms-flex-align: left;
             align-items: left;
+    max-width: 50%;
   }
   section.second .about h3 {
     font-size: 1.4rem;
@@ -438,7 +520,7 @@ button a:hover, button a:active {
     color: white;
     width: 100%;
     margin: 0px;
-    font-family: "Bodoni";
+    font-family: "futural";
   }
   section.second .about div {
     text-align: left;
@@ -448,7 +530,7 @@ button a:hover, button a:active {
     width: 100%;
     margin: 10px 0px;
     font-size: 1rem;
-    font-family: Bodoni;
+    font-family: futural;
     line-height: 27px;
     color: white;
   }
